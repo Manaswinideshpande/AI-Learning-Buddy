@@ -44,14 +44,14 @@ if st.button("Generate"):
                                      "Provide an in-depth explanation.""Keep the response within 1000 words.")
 
  
-         elif option == "Real-Life Example":
+        elif option == "Real-Life Example":
               system_instruction =f"you are an expert concepts explanation bot, your task is to explain concepts using real time examples with simple clear and grounded responses wrapping the sentences within 2 to 3 lines"
               prompt = f"Give one simple real-life application on {topic}."
  
-         elif option == "Ask Anything":
+        elif option == "Ask Anything":
               system_instruction =f"explain user provided topics clearly with grounded answers, if you don't know the answer say you don't know but always give real answers to user "
               prompt = f"Ready to answer on given {topic} with grounded answers."
-         elif option == "Generate Quiz":
+        elif option == "Generate Quiz":
               system_instruction =f"""Create a quiz with 5 MCQ along witht he answers at the bottom of the each question.
                                       Rules:
                                      - Each question should have 4 options (A, B, C, D) followed by its correct answer.
